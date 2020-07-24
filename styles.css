@@ -30,31 +30,7 @@ body, html {
     border: 2px solid #6B8E23;
     transition : all 0.5s linear;
     
-  }
-  
-  @-webkit-keyframes wiggle {
-    0%   {
-      transform: rotate(0deg);
-    }
-    25%  {
-      transform: rotate(-30deg);
-    }
-    50%  {
-      transform: rotate(15deg);
-    }
-    100% {
-      transform: rotate(0deg);
-    }
-  }
-  
-  .pic:hover {
-    /*Webkit fix*/
-    -webkit-transform: translateZ(0);
-    
-    cursor:pointer;
-    
-    -webkit-animation: wiggle 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
-  }
+  } 
   
   .header-text {
     margin-top:0.5em;
